@@ -1,4 +1,4 @@
-module github.com/alyyousuf7/skedda
+module github.com/triplea24/skedda
 
 go 1.12
 
