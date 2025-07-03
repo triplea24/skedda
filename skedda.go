@@ -143,7 +143,7 @@ func (s *Skedda) PrimaryDomain() (string, error) {
 	}
 
 	body := strings.NewReader(fmt.Sprintf("username=%s", s.username))
-	req, err := http.NewRequest("POST", "https://www.skedda.com/account/login", body)
+	req, err := http.NewRequest("POST", "https://swingstar.skedda.com/account/login", body)
 	if err != nil {
 		return "", nil
 	}
